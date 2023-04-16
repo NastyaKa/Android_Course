@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="permission_contacts_request">Contacts permission is needed to show contacts.</string>
+    <string name="permissions_granted">Contacts permission was granted. Press refresh button.</string>
+    <string name="permissions_not_granted">Contacts permission was not granted. Nothing to show.</string>
+    <string name="accept">Accept</string>
+    <string name="refresh">Refresh</string>
+    <string name="contact">Contact</string>
+    <plurals name="contacts_count_plurals">
+        <item quantity="one">%d contact found</item>
+        <item quantity="other">%d contacts found</item>
+    </plurals>
+</resources>

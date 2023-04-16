@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pomenyai">تھیم کو تبدیل کریں۔</string>
+    <string name="email">ای میل</string>
+    <string name="pswrd">پاس ورڈ</string>
+    <string name="buttonLogin">لاگ ان کریں</string>
+    <string name="ne_tot_email">ای میل فیلڈ خالی ہے۔</string>
+    <string name="ne_tot_password">پاس ورڈ فیلڈ خالی ہے۔</string>
+    <string name="prosto_oshibochka">غلط ای میل یا پاس ورڈ</string>
+</resources>

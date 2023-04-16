@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            android:gravity="end"
+            android:scrollbars="vertical"
+            android:textSize="25sp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="0.6"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            tools:ignore="NestedWeights">
+
+            <Button
+                android:id="@+id/buttonMem"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:text="@string/buttonMem"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,NestedWeights" />
+
+            <Button
+                android:id="@+id/buttonClr"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:text="@string/buttonClr"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,NestedWeights" />
+
+            <Button
+                android:id="@+id/buttonRes"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:text="@string/buttonRes"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,NestedWeights" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            tools:ignore="NestedWeights">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:text="@string/button7"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,NestedWeights" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:text="@string/button8"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,NestedWeights" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:text="@string/button9"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,NestedWeights" />
+
+            <Button
+                android:id="@+id/buttonDiv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:text="@string/buttonDiv"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,NestedWeights" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            tools:ignore="NestedWeights">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:text="@string/button4"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,NestedWeights" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:text="@string/button5"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,NestedWeights" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:text="@string/button6"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,NestedWeights" />
+
+            <Button
+                android:id="@+id/buttonMul"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:text="@string/buttonMul"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,NestedWeights" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            tools:ignore="NestedWeights">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:text="@string/button1"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,NestedWeights" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:text="@string/button2"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,NestedWeights" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:text="@string/button3"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,NestedWeights" />
+
+            <Button
+                android:id="@+id/buttonPls"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:text="@string/buttonPls"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,NestedWeights" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            tools:ignore="NestedWeights">
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:text="@string/button0"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,NestedWeights" />
+
+            <Button
+                android:id="@+id/buttonDot"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:text="@string/buttonDot"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,NestedWeights" />
+
+            <Button
+                android:id="@+id/buttonMns"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:text="@string/buttonMns"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,NestedWeights" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

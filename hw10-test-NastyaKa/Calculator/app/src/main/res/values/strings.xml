@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="txt" />
+    <string name="button0">0</string>
+    <string name="buttonClr">C</string>
+    <string name="buttonRes">=</string>
+    <string name="button7">7</string>
+    <string name="button8">8</string>
+    <string name="button9">9</string>
+    <string name="buttonDiv">/</string>
+    <string name="button4">4</string>
+    <string name="button5">5</string>
+    <string name="button6">6</string>
+    <string name="buttonMul">*</string>
+    <string name="button1">1</string>
+    <string name="button2">2</string>
+    <string name="button3">3</string>
+    <string name="buttonPls">+</string>
+    <string name="buttonDot">.</string>
+    <string name="buttonMns">-</string>
+    <string name="buttonMem">MR</string>
+    <string name="nan">NaN</string>
+    <string name="copytxt">Copied to clipboard!</string>
+</resources>

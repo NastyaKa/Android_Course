@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">why_xml</string>
+    <string name="pomenyai">switch theme</string>
+    <string name="email">e-mail</string>
+    <string name="pswrd">password</string>
+    <string name="buttonLogin">LOG IN</string>
+    <string name="oshibochka" translatable="false" />
+    <string name="ne_tot_email">E-mail field is empty</string>
+    <string name="ne_tot_password">Password field is empty</string>
+    <string name="prosto_oshibochka">Incorrect e-mail or password</string>
+</resources>
