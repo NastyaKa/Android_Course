@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="attach_files">Attach files</string>
+    <string name="send_message">Send message</string>
+    <string name="message_hint">Message</string>
+    <string name="go_back">Go back</string>
+    <string name="image_message">Image Message</string>
+    <string name="invalid_message">INVALID MESSAGE</string>
+    <string name="permissions_not_granted">Internet permission was not granted. Nothing to show</string>
+    <string name="permissions_granted">Permission was granted. Press refresh button.</string>
+    <string name="refresh">Refresh</string>
+    <string name="update">Update</string>
+</resources>
